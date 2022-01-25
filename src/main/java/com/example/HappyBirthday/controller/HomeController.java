@@ -1,15 +1,13 @@
 package com.example.HappyBirthday.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class PageController {
+public class HomeController {
 
-    @GetMapping("selectBrand")
-    public String selectBrand(Model model){
-        return "selectBrand";
+    @GetMapping("/")
+    public String home(){
+        return "home";
     }
-
 }
