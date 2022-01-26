@@ -3,8 +3,8 @@
     font-style: italic ;
     font-weight: bold;
     font-size: 10em;
-    line-height: 3em;
-    color: yellowgreen;
+    line-height: 1.5em;
+    color: green;
     font-family: arial;
     margin : 0 auto;
 
@@ -16,4 +16,5 @@
     color : darkslateblue;
     font-family: arial;
     margin : 0 auto;
+    line-height: 1em;
 }
