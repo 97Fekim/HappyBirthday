@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class PageController {
 
-    @GetMapping("selectBrand")
+    @GetMapping("secondPage")
     public String selectBrand(Model model){
-        return "selectBrand";
+        return "secondPage";
     }
 
 }
