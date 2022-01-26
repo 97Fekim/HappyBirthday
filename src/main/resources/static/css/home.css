@@ -2,19 +2,21 @@
 
     font-style: italic ;
     font-weight: bold;
-    font-size: 10em;
-    line-height: 1.5em;
-    color: #79d78b;
+    font-size: 5em;
+    color: #eae5e5;
     font-family: arial;
     margin : 0 auto;
 
 }
 
-#presentDescription {
-    font-weight: bold;
-    font-size: 5em;
-    color : darkslateblue;
-    font-family: arial;
-    margin : 0 auto;
-    line-height: 1em;
+#clickGift {
+    font-size: 3em;
+    color: #eae5e5;
+}
+
+body {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url('https://github.com/97Fekim/TIL/blob/master/image/cake2.jpg?raw=true');
+    background-repeat : no-repeat;
+    background-size : 100% 100%;
 }
